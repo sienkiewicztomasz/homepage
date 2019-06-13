@@ -1,16 +1,60 @@
-.bodyHeader {
-    background: #f3f9fb;
+.body {
+    background: #e0e4e6;
+    color: #333;
 }
 
-.sectionHeader {
+.about {
+    width: 100%;
+    max-width: 700px;
+}
+
+.about__header {
     color: #87c0cd;
 }
 
-.mainHeader {
+.about__paragraph {
+    padding: 16px;
+    border: 3px double #1A936F;
+}
+
+.article {
+    background-color: #1A936F;
+}
+
+.article__img {
+    image-resolution: 120px 120px;
+}
+
+.article__header {
+    color: darkslateblue;
+}
+
+.article__paragraph {
+    color: darkmagenta;
+    padding: 16px;
+    border-block-end: 700px;
+    border: 4px dotted #333;
+}
+
+.diary__header {
+    color: #87c0cd;
+}
+
+.main {
+    width: 100%;
+    max-width: 700px;
+    margin: 32px auto;
+}
+
+.main__header {
     color: #1d2bac;
     background-color: #87c0cd;
 }
 
-.paragraph {
-    color: #113F67;
+.navigation {
+    background-color: chartreuse;
+}
+
+.navigation__link {
+    color: #1A936F;
 }
