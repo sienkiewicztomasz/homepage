@@ -32,7 +32,6 @@
 .article__paragraph {
     color: darkmagenta;
     padding: 16px;
-    border-block-end: 700px;
     border: 4px dotted #333;
 }
 
