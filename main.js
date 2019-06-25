@@ -9,4 +9,10 @@ console.log(`Witaj przybyszu`);
 
 const paragraph = document.querySelector('.paragraph__js');
 
+const welcome = (age,name) => {
+    console.log('Witaj ' + name +'!!! Masz ' + age + ' lat:)');
+}
+
+console.log(welcome(43, 'Tomek'));
+
 paragraph.innerHTML = `Nazywam się ${name} i mam ${age} lata`;
